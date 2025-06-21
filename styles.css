@@ -1,0 +1,97 @@
+body{
+    border: 0;
+    margin: 0;
+    background-color: #0d0d0d;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    height: 56px;
+    background-color: #181818;
+}
+
+.topo--container--1 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+   
+}
+
+.menu--icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+.menu--logo {
+    margin-left: 40px;
+    width: 100.91px;
+    height: 22.381px;
+}
+
+.topo--container--2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex : 2;
+}
+
+.campo--pesquisa{
+    width: 714px;
+    height: 38px;
+    border: 1px solid #2a2a2a;
+    outline: none;
+    background-color: #0f0f0f;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    color: white;
+    padding-left: 10px;
+}
+
+.botao--pesquisa {
+    height: 38px;
+    border: 0;
+    outline: none;
+    background-color: #2a2a2a;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    width: 78px;
+    
+}
+
+.icone--botao--pesquisa{
+    width: 24px;
+    height: 24px;
+}
+
+.botao--microfone{
+    width: 38px;
+    height: 38px;
+    border: 0;
+    outline: none;
+    background-color: #2a2a2a;
+    border-radius: 50%;
+    margin-left: 32px;
+}
+
+.topo--container--3 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 34px;
+}
+
+.avatar {
+
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: #912df5;
+}
