@@ -1,10 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-body{
+body {
     border: 0;
     margin: 0;
     background-color: #0d0d0d;
@@ -23,7 +22,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-   
+
 }
 
 .menu--icon {
@@ -43,10 +42,10 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    flex : 2;
+    flex: 2;
 }
 
-.campo--pesquisa{
+.campo--pesquisa {
     width: 714px;
     height: 38px;
     border: 1px solid #2a2a2a;
@@ -66,15 +65,15 @@ body{
     border-top-right-radius: 45px;
     border-bottom-right-radius: 45px;
     width: 78px;
-    
+
 }
 
-.icone--botao--pesquisa{
+.icone--botao--pesquisa {
     width: 24px;
     height: 24px;
 }
 
-.botao--microfone{
+.botao--microfone {
     width: 38px;
     height: 38px;
     border: 0;
@@ -143,4 +142,89 @@ nav {
 .banner {
     width: 100%;
     background-color: #912df5;
+}
+
+.meio--container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.meio {
+    width: 950px;
+    margin-top: 25px;
+}
+
+.infos-channel {
+    display: flex;
+    height: 148px;
+
+}
+
+.infos-channel--1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar--channel {
+    width: 128px;
+    height: 128px;
+    background-color: #912df5;
+    border-radius: 50%;
+}
+
+.name-channel--container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.subscribers {
+    color: #888;
+    font-family: Roboto;
+    font-size: 17.585px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+.name-icon {
+    display: flex;
+    flex-direction: row;
+    ;
+}
+
+.name--channel {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30.375px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+.infos-channel--2 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-subscribers {
+    display: flex;
+    padding: 12px 24px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 65px;
+    background-color: #FFF;
+    font-family: Roboto;
+    font-style: bold;
+    border: 0;
+    outline: 0;
 }
