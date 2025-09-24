@@ -255,3 +255,54 @@ nav {
     border-bottom: 2px solid white;
     border-color: #9A9A9A;
 }
+
+.trailer--container {
+    cursor: pointer;
+    display: flex;
+    height: 118px;
+    margin-top: 38px;
+}
+
+.trailer--1 {
+    display: flex;
+    flex: 1;
+}
+
+.trailer--2 {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+
+}
+
+.video {
+    width: 210px;
+    background-color: #912df5;
+    border-radius: 8px;
+}
+
+.nome-video {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.infos-video {
+    color: #8F8F8F;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -8px;
+}
+
+.descricao--video {
+    color: #EFEFEF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -16px;
+    line-height: 150%;
+}
