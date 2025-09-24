@@ -279,6 +279,7 @@ nav {
     width: 210px;
     background-color: #912df5;
     border-radius: 8px;
+    height: 118px;
 }
 
 .nome-video {
@@ -286,6 +287,7 @@ nav {
     font-weight: 700;
     font-size: 20px;
     color: white;
+    margin: 0;
 }
 
 .infos-video {
@@ -295,14 +297,84 @@ nav {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-top: -8px;
+    margin-top: 5px;
 }
 
 .descricao--video {
     color: #EFEFEF;
     font-family: Roboto;
     font-size: 14px;
+    font-style: normal;
     font-weight: 500;
-    margin-top: -16px;
     line-height: 150%;
+    margin-top: 1px;
+}
+
+.sessao--videos {
+    display: flex;
+    flex-direction: column;
+    height: 251px;
+    margin-top: 30px;
+}
+
+.icon--play {
+    width: 16px;
+    height: 16px;
+    margin-left: 79px;
+    margin-top: 2px;
+}
+
+.play--all {
+    color: #9A9A9A;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+.video--container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 24px;
+}
+
+.infos-sessao {
+    display: flex;
+    flex-direction: row;
+}
+
+.nome--video--sessao {
+    margin-top: 16px;
+    font-size: 17px;
+}
+
+.nome--sessao--canal {
+    margin: 0;
+    color: #9A9A9A;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.check--icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+
+.dados--canal {
+    display: flex;
+    flex-direction: row;
+}
+
+.sessao--row--videos {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
 }
